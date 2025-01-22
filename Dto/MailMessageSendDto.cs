@@ -32,5 +32,9 @@ namespace SkyNET.Mail.Contracts.Dto {
         ///     формат HTML
         /// </summary>
         public bool IsBodyHtml { get; set; }
+        /// <summary>
+        /// Отправлять разработчику
+        /// </summary>
+        public bool SendToRazrab { get; set; }
     }
 }
